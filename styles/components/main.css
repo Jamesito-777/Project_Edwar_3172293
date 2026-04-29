@@ -1,0 +1,14 @@
+/* .main-contaniner{
+    background-image: url(/assets/images/VR46_FONDO.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    position: relative;
+} */
+
+.watch-text {
+    display: flex;
+    background-color: #191928;
+    color: var(--white);
+    height: 100vw;
+}
