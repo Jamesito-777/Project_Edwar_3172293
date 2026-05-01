@@ -1,5 +1,5 @@
 .cards-section {
-    background-color: #10111f;
+    background-color: var(--gray-900);
     /* padding: 8rem 2rem; */
     color: white;
 }

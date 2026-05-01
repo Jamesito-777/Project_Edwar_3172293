@@ -1,5 +1,8 @@
-.footer-container {
+.footer {
     background-color: aqua;
     text-align: center;
     font-size: var(--fs-xxs);
+    margin: 0;
+    padding: 30px;
+    font-weight: bold;
 }
