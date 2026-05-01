@@ -1,0 +1,25 @@
+[
+  {
+    "id": "imagen-1",
+    "image": "/assets/images/4 img.jpg",
+    "alt": "Data scientist interview",
+    "label": "WATCH"
+  },
+  {
+    "id": "imagen-2",
+    "image": "/assets/images/5 img.jpg",
+    "alt": "Speaker at data science event",
+    "label": "WATCH"
+  },
+  {
+    "id": "imagen-3",
+    "image": "/assets/images/6 img.jpg",
+    "alt": "Person entering train",
+    "label": "WATCH"
+  }
+]
+
+
+
+
+
