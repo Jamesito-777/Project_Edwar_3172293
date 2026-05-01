@@ -20,6 +20,7 @@
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+    border-bottom: 14px solid var(--secundary-900);
 }
 
 .hero__button:hover{

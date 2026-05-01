@@ -1,10 +1,16 @@
 .cards-section {
     background-color: #10111f;
-    padding: 5rem 2rem;
+    /* padding: 8rem 2rem; */
+    color: white;
+}
+
+ body{
+            background-color: var(--gray-900);
 }
 
 .cards-container {
-    width: min(92%, 1100px);
+    width: 92%;
+    /* max-width: 1100px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -13,40 +19,77 @@
 .cards__item {
     position: relative;
     height: 240px;
-    overflow: hidden;
 }
 
 .cards__image {
     width: 100%;
     height: 100%;
-    display: block;
-    object-fit: cover;
 }
 
 .cards__button {
     position: absolute;
+    font-size: var(-fs-xxxs);
     top: 50%;
-    left: 35%;
+    left: 40%;
     border: none;
-    border-radius: 999px;
-    background-color: var(--tertiary-500);
+    border-radius: 40px;
+    background-color: var(--primary-600);
     color: var(--black);
-    padding: 20px;
-    font-size: var(--fs-xxxs);
-    font-weight: 800;
-    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 @media (width > 768px) {
-    .cards-section {
-        padding: 8rem 2rem;
-    }
-
     .cards-container {
+        width: 70%;
+        padding-top: 10vh;
         grid-template-columns: repeat(3, 1fr);
     }
 
     .cards__item {
-        height: 280px;
+        height:320px;
     }
 }
+
+
+/* TEXTO DE ABAJO TEXTO COMPANIES INVOLED */
+
+.cards-text-botton__text1,
+.cards-text-botton__text2 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-text-botton__text2 {
+    color: var(--tertiary-500);
+}
+
+@media (width > 768px) {
+    .cards-text-botton__text1,
+    .cards-text-botton__text2 {
+        font-size: 100px;
+        text-align: center;
+    
+    }
+    .cards-text-botton__text1{
+        color: transparent;
+        -webkit-text-stroke: 1px var(--white);
+    }
+    .cards-text-botton__text2{
+        padding-left: 40vh;
+    }
+    .cards-text-botton{
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 30vh;
+
+
+    }
+}
+
+
+
